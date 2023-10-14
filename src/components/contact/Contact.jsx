@@ -15,7 +15,7 @@ function Contact() {
 
     const mainStyle = {
         cmn: 'mt-10 px-3',
-        md: 'md:ml-28 md:mt-14'
+        md: 'md:ml-20 md:mt-14'
     }
 
     const headStyle = {
