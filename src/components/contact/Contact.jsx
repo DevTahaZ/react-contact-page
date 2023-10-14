@@ -15,7 +15,7 @@ function Contact() {
 
     const mainStyle = {
         cmn: 'mt-10 px-3',
-        md: 'md:ml-40 md:mt-14'
+        md: 'md:ml-28 md:mt-14'
     }
 
     const headStyle = {
@@ -71,10 +71,10 @@ function Contact() {
     <main className={`${mainStyle.cmn} ${mainStyle.md}`}>
         <div className={`${headStyle.cmn} ${headStyle.sm}`}>
             <h1 className='uppercase font-bold text-5xl mb-4'>Contact Us</h1>
-            <p className='w-11/12 text-base md:w-4/5'>LET’S CONNECT: WE’RE HERE TO HELP, AND WE’D LOVE TO HEAR FROM YOU! WHETHER YOU HAVE A QUESTION, COMMENT, OR JUST WANT TO CHAT , YOU CAN REACH OUT TO US THROUGH THE CONTACT FORM OF THIS PAGE, OR BY PHONE, EMAIL, OR SOCIAL MEDIA. </p>
+            <p className='w-11/12 text-base md:w-9/12'>LET’S CONNECT: WE’RE HERE TO HELP, AND WE’D LOVE TO HEAR FROM YOU! WHETHER YOU HAVE A QUESTION, COMMENT, OR JUST WANT TO CHAT , YOU CAN REACH OUT TO US THROUGH THE CONTACT FORM OF THIS PAGE, OR BY PHONE, EMAIL, OR SOCIAL MEDIA. </p>
         </div>
         <div className={`${bodyStyle.md}`}>
-            <div className='md:w-[472px]'>
+            <div className='md:w-[472px] md:mt-5'>
                 <div className={`${buttonWrapperStyle.cmn} ${buttonWrapperStyle.md}`}>
                         <button
                         onMouseEnter={() => setMessageDisplayIcon(hoverMessageIcon)}
